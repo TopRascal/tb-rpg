@@ -2,6 +2,8 @@ switch(combatPhase){
 	case phase.init:
 		for (var i = 0; i < instance_number(cSpawn); i++){
 			var spawner = instance_find(cSpawn, i);
+			var unit = instance_create_depth(spawner.x, spawner.y, 0, pUnit);
+			ds_list_add(global.units, unit);
 		}
 		combatPhase = phase.startTurn;
 	break;
