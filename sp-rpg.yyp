@@ -1,8 +1,13 @@
 {
   "resources": [
     {"id":{"name":"pUnit","path":"objects/pUnit/pUnit.yy",},"order":2,},
+    {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":2,},
     {"id":{"name":"cSpawn","path":"objects/cSpawn/cSpawn.yy",},"order":1,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"sPlayer","path":"sequences/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"Helper","path":"scripts/Helper/Helper.yy",},"order":0,},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":3,},
+    {"id":{"name":"sEnemyIdle","path":"sprites/sEnemyIdle/sEnemyIdle.yy",},"order":1,},
     {"id":{"name":"gManager","path":"objects/gManager/gManager.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
