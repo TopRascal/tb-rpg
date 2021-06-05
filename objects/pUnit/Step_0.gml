@@ -28,6 +28,7 @@ switch(state) {
 	
 	case HURT:
 		if (layer_sequence_get_headpos(unitSequence) > hurtEnd) {
+			DamageUnit(incomingDamage);
 			layer_sequence_headpos(unitSequence, atkStart);
 			state = IDLE;
 		}
